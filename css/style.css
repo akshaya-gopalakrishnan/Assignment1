@@ -1,0 +1,217 @@
+/* Author:AKSHAYA GOPAL */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+}
+.title {
+    background-image: url(../image/academy-banner.jpg);
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10%;
+}
+.titledesc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 40px;
+}
+.titledesc img {
+    align-self: flex-end;
+}
+.head {
+    text-align: right;
+}
+.head h1 {
+    font-size: 55px;
+    letter-spacing: -2px;
+    font-weight: 900;
+    color: #1e2531;
+}
+.advancedim {
+    position: relative;
+    margin-left: 7%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+.training {
+    background-color: #1e2531;
+    width: auto;
+    color: #68d7f2;
+    font-weight: 600px;
+    font-size: 30px;
+    position: absolute;
+    line-height: 2;
+    padding: 3%;
+    top: 800px;
+    right: 10%;
+}
+.training p::before {
+    content: "{";
+    color: #fb2376;
+}
+.training p::after {
+    content: "}";
+    color: #fb2376;
+}
+.overlapdesc {
+    padding: 0 10% 3% 10%;
+    line-height: 1.5;
+    color: #252525;
+    font-size: 25px;
+    text-align: center;
+}
+.module {
+    background-image: url(../image/modulebg.jpg);
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10%;
+}
+.module p {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 20%;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+.desc2 {
+    padding: 4% 15% 4% 15%;
+
+    line-height: 1.5;
+    color: #252525;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+.twoimage {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 5%;
+}
+.firsti {
+    display: flex;
+    background-image: url(../image/testsbg.jpg);
+    height: 80vh;
+    background-size: cover;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.secondi {
+    background-image: url(../image/intrvwbg.jpg);
+    height: 80vh;
+    background-size: cover;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imagedesc1 {
+    width: 85%;
+    background-color: rgba(6, 8, 11, 0.7);
+    color: #fff;
+    padding: 12% 0;
+    text-align: center;
+    line-height: 1.3;
+}
+.imagedesc2 {
+    width: 85%;
+    background-color: rgba(6, 8, 11, 0.7);
+    color: #fff;
+    padding: 12% 0;
+    text-align: center;
+    line-height: 1.3;
+}
+.twoimage p {
+    font-size: 20px;
+    padding: 20%;
+}
+.headings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5%;
+}
+
+.readyH {
+    text-align: center;
+    color: #181e22;
+    padding-bottom: 2%;
+}
+.join {
+    text-align: center;
+    color: #f26422;
+    border: 2px solid #f26422;
+    padding: 1%;
+    width: 8%;
+}
+.address {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30%;
+}
+.office {
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+.address h4 {
+    padding-bottom: 5%;
+}
+@media screen and (max-width: 576px) {
+    .title {
+        background-image: none;
+        background-color: #c0c4c9;
+    }
+    .advancedim img {
+        width: 100%;
+    }
+    .advancedim {
+        margin: 0;
+    }
+    .training {
+        position: static;
+    }
+    .module p {
+        width: 30%;
+        margin-bottom: 5%;
+    }
+    .module {
+        height: max-content;
+    }
+    .firsti {
+        width: 100%;
+        height: fit-content;
+    }
+    .secondi {
+        width: 100%;
+        height: fit-content;
+    }
+    .imagedesc1 {
+        margin: 3% 0;
+    }
+    .imagedesc2 {
+        margin: 3% 0;
+    }
+    .join {
+        width: 30%;
+    }
+    .address {
+        padding: 0 10%;
+    }
+    .training {
+        font-size: 25px;
+    }
+}
